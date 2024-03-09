@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    /* Write your CSS Code here */
+    *{
+      margin: 0;
+    }
+    .flag{
+      background-color:  #CE1126;
+;
+      height: 525px;
+      width: 900px;
+    }
+    .flag >p{
+      position:relative;
+      text-align: center;
+      font-size: 65px;
+      color: white;
+    }
+    .flag div{
+      background: #002868;
+      position : absolute;
+      height: 300px;
+      width: 900px;
+      margin-top: 30px;
+    }
+ .flag div div{
+    position: absolute;
+     text-align: center;
+     background-color: aliceblue;
+     height: 300px;
+     width: 300px;
+     margin: 0px;
+     margin-left: 34%;
+     border-radius: 50%;
+    }
+    .flag div div p{
+      font-size: 80px;
+      text-align: center;
+      margin-top: 30%;
+    } 
+    
+  </style>
+</head>
+
+
+
+<body>
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+        <p>of Laos</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
